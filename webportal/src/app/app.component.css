@@ -1,0 +1,10 @@
+label,button{
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+}
+
+button{
+    text-align: center;
+}
+

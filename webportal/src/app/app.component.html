@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <form (ngSubmit)="onSubmit()">
+
+       
+            <div class="block">
+              <label for="id">Id</label>
+              <input 
+              type="text" id="id" 
+              name="id"
+              class="form-control"
+              [(ngModel)]="employee.id"
+              
+              >
+            </div>
+            <div class="block">
+              <label for="name">Name</label>
+              <input 
+              type="text" id="name" 
+              name="name"
+              class="form-control"
+              [(ngModel)]="employee.name"
+              
+              >
+            </div>
+            <div class="block">
+              <label for="address">Address</label>
+              <input 
+              type="text" id="address" 
+              name="address"
+              class="form-control"
+              [(ngModel)]="employee.address"
+              
+              >
+            </div>
+            <div class="block">
+              <label for="age">age</label>
+              <input 
+              type="text" id="age"
+              name="age" 
+              class="form-control"
+              [(ngModel)]="employee.age"
+              
+              >
+            </div>
+            <div class="block">
+              <button class="btn btn-default">Submit</button>
+              <button class="btn btn-success" type="button"
+              (click)="onClear()">Clear</button>
+              <button class="btn btn-success" type="button"
+              (click)="onGet()">Get</button>
+            </div>
+
+            
+       
+      </form>
+    </div>
+  </div> 
+</div>

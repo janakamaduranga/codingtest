@@ -1,0 +1,13 @@
+package com.wiley.test.gateway.portalgateway;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class PortalgatewayApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
